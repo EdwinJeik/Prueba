@@ -1,0 +1,118 @@
+
+header{
+  background-color: #5B7989;
+  width: 80%;
+  height: 100px;
+  position:relative;
+  margin: 0 auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-shadow: 2px 2px 2px, 0 0 2px #02010a;
+  }
+
+h1{
+  float: left;
+  display: block;
+  margin: 30px 10px;
+  padding: 0px 5px;
+  height: 100%;
+color: white;
+
+}
+body{
+  background-color: black;
+  font-size: 1em;
+  font-family: Dancing Script;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+li{
+  float: right;
+  display: block;
+  margin: 30px 10px;
+  padding: 0px 5px;
+  height: 100%;
+  color: white;
+  }
+
+  nav .contenido{
+    width: 80%;
+    height: 430px;
+    background-color: #82c3a6;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+.contenido img{
+  box-shadow: 2px 2px;
+  border:2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+width: 80%;
+height: 310px;
+background-color: #d5c75f;
+margin: 0 auto;
+padding-top: 40px;
+}
+
+.contenedor img{
+  box-shadow: 2px 2px;
+  border: 4em;
+  margin-left: 1em;
+  margin-right: 1em;
+  }
+
+  #contendor {
+    width: 80px;
+    height: 80px;
+    border: 2px solid;
+    margin: 0 auto;
+    }
+
+
+
+
+  figure{
+    margin left: auto;
+    display: inline-block;
+    position:relative;
+  }
+
+
+
+figcaption{
+  text-align: center;
+}
+
+
+
+@-webkit-keyframes {
+
+#Volvo2 img{
+animation-name: Volvo2-animacion;
+animation-duration: 2s;
+-webkit-animation-delay: 1s;
+-moz-animation-delay: 1s;
+-o-animation-delay: 1s;
+animation-delay: 1s;
+}
+}
+footer{
+  width: 80%;
+  height:200px;
+  background-color: #C6d5c5;
+  margin: 0 auto;
+  position: relative;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+}
